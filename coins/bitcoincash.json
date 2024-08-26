@@ -3,20 +3,12 @@
     "symbol": "BCH",
     "algorithm": "sha256",
     "coinbase": "v-nomp",
-    "peerMagic": "f9beb4d9",
-    "peerMagicTestnet": "0b110907",
-    "version_mask": true,
-    "mainnet": {
-        "bech32": "bch",
-        "bip32": {
-            "public": "0488b21e"
-        },
-        "pubKeyHash": "00",
-        "scriptHash": "05"
-    },
+    "peerMagic": "e3e1f3e8",
+    "peerMagicTestnet": "f4e5f3f4",
+    "version_mask": 1fffe000,
     "blockTime": 600,
     "explorer": {
-        "txURL": "https://blockchair.com/bitcoincash/transaction/",
-        "blockURL": "https://blockchair.com/bitcoincash/block/"
+        "txURL": "https://insight.bitcore.io/#/BCH/mainnet/tx/",
+		"blockURL": "https://insight.bitcore.io/#/BCH/mainnet/block/"
     }
 }
