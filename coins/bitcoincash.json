@@ -1,0 +1,22 @@
+{
+    "name": "Bitcoin-Cash",
+    "symbol": "BCH",
+    "algorithm": "sha256",
+    "coinbase": "v-nomp",
+    "peerMagic": "f9beb4d9",
+    "peerMagicTestnet": "0b110907",
+    "version_mask": true,
+    "mainnet": {
+        "bech32": "bch",
+        "bip32": {
+            "public": "0488b21e"
+        },
+        "pubKeyHash": "00",
+        "scriptHash": "05"
+    },
+    "blockTime": 600,
+    "explorer": {
+        "txURL": "https://blockchair.com/bitcoincash/transaction/",
+        "blockURL": "https://blockchair.com/bitcoincash/block/"
+    }
+}
