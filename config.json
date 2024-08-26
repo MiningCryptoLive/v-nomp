@@ -33,15 +33,15 @@
     "website": {
         "enabled": true,
         "host": "0.0.0.0",
-        "port": 8080,
-        "stratumHost": "yourdomainname.com",
+        "port": 8282,
+        "stratumHost": "bch.solopool.us",
         "stats": {
             "updateInterval": 30,
             "historicalRetention": 14400,
             "hashrateWindow": 300
         },
         "adminCenter": {
-            "enabled": false,
+            "enabled": true,
             "password": "changeme"
         },
         "tlsOptions" : {
